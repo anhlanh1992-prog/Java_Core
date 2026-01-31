@@ -10,6 +10,7 @@ public class Account {
     public Department department;
     public Position position;
     public Date createDate;
+    public Group [] groups;
 
     @Override
     public String toString() {
