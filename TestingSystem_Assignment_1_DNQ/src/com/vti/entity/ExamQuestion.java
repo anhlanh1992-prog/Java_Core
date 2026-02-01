@@ -1,14 +1,16 @@
 package com.vti.entity;
 
+import java.util.Arrays;
+
 public class ExamQuestion {
     public Exam exam;
-    public Question questionID;
+    public Question [] questions;
 
     @Override
     public String toString() {
         return "ExamQuestion{" +
                 "exam=" + exam +
-                ", questionID=" + questionID +
+                ", questions=" + Arrays.toString(questions) +
                 '}';
     }
 }
